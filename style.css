@@ -12,6 +12,7 @@ padding: 10px 20px;
 text-align: center;
 font-size: 16px;
 cursor: pointer;
+transition: 0.2s;
 }
 
 .tab:hover {
@@ -155,4 +156,24 @@ padding: 20px;
     margin-top: 10px;
     border: solid 2px black;
     
+}
+
+.work-image img:hover {
+   max-width: 70%;
+   box-shadow: 10px 10px 10px;
+ }
+
+.back {
+  margin-top: 10px;
+  border: #343536 solid 4px;
+  max-width: 60px;
+  text-align: center;
+  border-radius: 15%;
+  cursor: pointer;
+  transition: 0.5s
+}
+
+.back:hover {
+  background-color: grey;
+  
 }
