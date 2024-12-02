@@ -52,90 +52,90 @@ color: grey;
         
 
 .services-box {
-    width: 200px;
-    margin: auto;
-    border: solid black 2px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 20px;
-    color: #9A170D;
+width: 200px;
+margin: auto;
+border: solid black 2px;
+padding: 10px;
+text-align: center;
+border-radius: 8px;
+font-size: 20px;
+color: #9A170D;
 }
 
 .service-list {
-    margin-top: 20px;
-    font-size: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    border: solid black 4px;
-    border-radius: 8px;
-    max-width: 700px;
+margin-top: 20px;
+font-size: 16px;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+border: solid black 4px;
+border-radius: 8px;
+max-width: 700px;
 }
 
 .pricing-box {
-    width: 200px;
-    margin: auto;
-    border: solid black 2px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 20px;
-    color: #9A170D;
+width: 200px;
+margin: auto;
+border: solid black 2px;
+padding: 10px;
+text-align: center;
+border-radius: 8px;
+font-size: 20px;
+color: #9A170D;
 }
 
 .pricing-list {
-    margin: auto;
-    width: 60%;
-    display: flex;
-    flex-wrap: wrap;
-    border: solid black 4px;
-    border-radius: 8px;
-    max-width: 500px;
-    margin-top: 10px;
+margin: auto;
+width: 60%;
+display: flex;
+flex-wrap: wrap;
+border: solid black 4px;
+border-radius: 8px;
+max-width: 500px;
+margin-top: 10px;
 }
 
 .join-box {
-    width: 200px;
-    margin: auto;
-    border: solid black 2px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 20px;
-    color: #9A170D;
+width: 200px;
+margin: auto;
+border: solid black 2px;
+padding: 10px;
+text-align: center;
+border-radius: 8px;
+font-size: 20px;
+color: #9A170D;
 }
 
 .join-details {
-    margin: auto;
-    width: 60%;
-    border: solid black 4px;
-    border-radius: 8px;
-    max-width: 200px;
-    margin-top: 10px;
-    padding: 20px
+margin: auto;
+width: 60%;
+border: solid black 4px;
+border-radius: 8px;
+max-width: 200px;
+margin-top: 10px;
+padding: 20px
 }
 
 .contact-box {
-    width: 200px;
-    margin: auto;
-    border: solid black 2px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 20px;
-    color: #9A170D;
+width: 200px;
+margin: auto;
+border: solid black 2px;
+padding: 10px;
+text-align: center;
+border-radius: 8px;
+font-size: 20px;
+color: #9A170D;
 }
 
 .contact-details {
-    margin: auto;
-    width: 60%;
-    border: solid black 4px;
-    border-radius: 8px;
-    max-width: 500px;
-    margin-top: 10px;
-    padding: 20px;
-    }
+margin: auto;
+width: 60%;
+border: solid black 4px;
+border-radius: 8px;
+max-width: 500px;
+margin-top: 10px;
+padding: 20px;
+}
     
     .work-text {
     width: 200px;
