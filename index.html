@@ -1,33 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Z's Mobile Detailing</title>
+<html>
+  <head>
     <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
+  </head>
 
-    <!-- Navbar -->
+  <body>
     <div class="nav">
-        <div class="tab">Services</div>
-        <div class="tab">Pricing</div>
-        <div class="tab">Join the Team</div>
-        <div class="tab">Contact</div>
-        <div class="tab">See Our Work</div>
+      <div class="tab" onclick="showit('services')">Services</div>
+      <div class="tab" onclick="showit('pricing')">Pricing</div>
+      <div class="tab" onclick="showit('join')">Join the Team</div>
+      <div class="tab" onclick="showit('contact')">Contact</div>
+      <div class="tab" onclick="showit('work')">See Our Work</div>
     </div>
 
-    <!-- Header Section -->
-    <div class="header">
-        <div class="me">
-            <img src="https://knightathletics.com/images/2024/8/15/20240814_FB_Zehner_Negahnquet_ZQ_0002.JPG?width=300" alt="Profile Picture"/>
-        </div>
-        <div class="big">
-            <h1>Z's Mobile Detailing</h1>
-            <p class="small">Bring your vehicle to the ultimate spa</p>
-        </div>
+    <div id="head" class="header">
+      <div class="me">
+        <img
+          src="https://knightathletics.com/images/2024/8/15/20240814_FB_Zehner_Negahnquet_ZQ_0002.JPG?width=300"
+        />
+      </div>
+      <div class="big">
+        <h1>Z's Mobile Detailing</h1>
+        <p class="small">Bring your vehicle to the ultimate spa</p>
+      </div>
     </div>
 
-</body>
+    <div id="services" style="display: none">
+      <div class="services-box">
+        <h2>Single Services</h2>
+      </div>
+      <ul class="service-list">
+        <li>Foam Wash</li>
+        <li>Color Correction</li>
+        <li>Interior/Exterior Cleaning</li>
+        <li>Ceramic Coating</li>
+        <li>Light Restoration</li>
+        <li>Professional Packages</li>
+        <li>Foam Hand Wash</li>
+        <li>Deep Wheel Cleaning</li>
+        <li>Fender Liner Cleaning</li>
+        <li>Engine Bay Detail</li>
+        <li>Door Jams</li>
+        <li>Paint Sealant</li>
+        <li>Windows</li>
+        <li>Vacuum</li>
+        <li>Interior Deep Clean</li>
+      </ul>
+    </div>
+
+    <div id="pricing" style="display: none">
+      <div class="pricing-box">
+        <h2>Pricing</h2>
+      </div>
+      <ul class="pricing-list">
+        <li>
+          Silver Membership - $50/month
+          <br />
+          <div class="details">- Normal Interior/Exterior Clean/Month</div>
+        </li>
+        <li>
+          Gold Membership - $75/month
+          <br />
+          <div class="details"
+            >- Deep Interior/Exterior Clean + Any 2 Services/Month</div
+          >
+        </li>
+        <li>
+          Premium Membership - $100/month
+          <br />
+          <div class="details"
+            >- Deep Interior/Exterior Clean + All Services/Month</div
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div id="contact" style="display: none">
+      <div class="contact-box">
+        <h2>Get in Touch w/ Me!</h2>
+    </div>
+    <div class="contact-details">
+        - Z’s Mobile Detailing<br>
+        - Company Phone: 804-214-8282<br>
+        - Company Email: znegahnquet10@gmail.com<br>
+        - FAQ<br>
+    </div>
+    </div>
+    
+    <div id="join" style="display: none">
+      <div class="join-box">
+        <h2>Join the Team</h2>
+    </div>
+    <div class="join-details">
+        - Name: <br/>
+        - Location: <br/>
+        - Experience: <br/>
+        - Phone: <br/>
+        - Email: 
+    </div>
+    </div>
+    
+    <div id="work" style="display: none">
+      <div class="work-text">
+        Work Coming Soon<br>
+    </div>
+    <div class="work-image">
+        <img src="https://images.ctfassets.net/c9t6u0qhbv9e/2018MercedesBenzEClassPreviewsummary/309cbf92b5a58721275dcee93e46d74a/2018_Mercedes-Benz_E-Class_Preview_summaryImage.jpeg" alt="Mercedes-Benz E-Class" />
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
 </html>
-
