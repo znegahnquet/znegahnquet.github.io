@@ -63,14 +63,15 @@ color: #9A170D;
 }
 
 .service-list {
-margin-top: 20px;
-font-size: 16px;
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-border: solid black 4px;
-border-radius: 8px;
-max-width: 700px;
+margin: auto;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: solid black 4px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-top: 10px;
 }
 
 .pricing-box {
