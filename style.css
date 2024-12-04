@@ -159,7 +159,7 @@ padding: 20px;
 }
 
 .work-image img:hover {
-   max-width: 50%;
+   max-width: 35%;
    box-shadow: 10px 10px 10px;
  }
 
