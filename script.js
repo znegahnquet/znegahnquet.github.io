@@ -10,3 +10,13 @@ document.getElementById('head').style.display = 'none';
 document.getElementById(var1).style.display = 'block';
 
 }
+
+function myFunction() {
+var txt;
+if (confirm("Application Submitted!")) {
+txt = "Complete!";
+} else {
+txt = "Application Submitted!";
+}
+document.getElementById ("demo"). innerHTML = txt;
+}
